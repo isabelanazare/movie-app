@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name" translatable="false">Movie App</string>
+    <string name="title_event_detail">Movie Details</string>
+    <string name="add">Add</string>
+    <string name="update">Update</string>
+    <string name="movie_title">Movie title</string>
+    <string name="movie_description">Movie description</string>
+    <string name="movie_genre">Movie genre</string>
+    <string name="movie_year">Movie year</string>
+    <string name="movie_rating">Movie rating</string>
+    <string name="movie_length">Movie length</string>
+    <string name="director">Director</string>
+    <string name="writer">Writer</string>
+    <string name="actor">Actor</string>
+
+</resources>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_new_event"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.movie.NewMovie">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:title="@string/title_event_detail" />
+
+    <EditText
+        android:id="@+id/movieTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/movie_title" />
+
+    <EditText
+        android:id="@+id/movieDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/movie_description" />
+
+    <EditText
+        android:id="@+id/movieGenre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/movie_genre" />
+
+    <EditText
+        android:id="@+id/movieYear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/movie_year" />
+
+    <EditText
+        android:id="@+id/movieRating"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/movie_rating" />
+    <EditText
+        android:id="@+id/movieLength"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/movie_length" />
+    <Button
+        android:id="@+id/save"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/add" />
+
+</LinearLayout>
